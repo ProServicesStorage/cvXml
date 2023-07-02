@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<App_UpdateSubClientPropertiesRequest>
+	<association>
+		<entity>
+			<appName>Linux File System</appName>
+			<clientName />
+			<backupsetName />
+			<subclientName/>
+		</entity>
+	</association>
+	<subClientProperties>
+		<contentOperationType>ADD</contentOperationType>
+		<commonProperties>
+			<encryptionFlag />
+			<description />
+			<enableBackup />
+			<numberOfBackupStreams />
+			<onDemandSubClient />
+			<allowMultipleDataReaders />
+			<storageDevice>
+				<networkAgents />
+				<softwareCompression />
+				<throttleNetworkBandwidth />
+				<applicableReadSize />
+				<dataBackupStoragePolicy>
+					<storagePolicyName />
+				</dataBackupStoragePolicy>
+				<deDuplicationOptions>
+					<enableDeduplication />
+					<generateSignature />
+				</deDuplicationOptions>
+			</storageDevice>
+			<snapCopyInfo>
+				<snapToTapeProxyToUseSource />
+				<isRMANEnableForTapeMovement />
+				<isSnapBackupEnabled />
+				<snapToTapeSelectedEngine>
+					<snapShotEngineName />
+				</snapToTapeSelectedEngine>
+				<snapToTapeProxyToUse>
+					<clientName />
+				</snapToTapeProxyToUse>
+			</snapCopyInfo>
+			<prepostProcess>
+				<preScanCommand />
+				<postScanCommand />
+				<preBackupCommand />
+				<postBackupCommand />
+				<runPostBackup />
+				<runAs />
+				<prepostUserName>
+					<userName />
+				</prepostUserName>
+			</prepostProcess>
+		</commonProperties>
+		<fsSubClientProp>
+			<useGlobalFilters/>
+			<useVSS/>
+			<useVSSForSystemState/>
+			<backupSystemState/>
+			<backupSystemStateforFullBkpOnly/>
+			<backupFilesQualifiedForArchive/>
+			<oneTouchSubclient/>
+			<catalogAdditional />
+			<catalogACL />
+			<deletePSTFileOnly />
+			<scanOption />
+			<preserveFileAccessTime />
+			<checkArchiveBit />
+			<retentionRule/>
+			<daysToKeepItems/>
+			<keepAtLeastPreviousVersions/>
+			<deleteArchiveJob/>
+			<deleteArchiveJobAfterDays/>
+			<userDeletedStubRetention/>
+			<userDeletedStubRetentionDays/>
+			<enableOnePass/>
+			<diskCleanupRules>
+			<enableArchivingWithRules/>
+			<startCleaningIfLessThan/>
+			<stopCleaningIfupto/>
+			<fileAccessTimeOlderThan/>
+			<fileModifiedTimeOlderThan/>
+			<fileCreatedTimeOlderThan/>
+			<fileSizeGreaterThan/>
+			<maximumFileSize/>
+			<archiveReadOnlyFiles/>
+			<afterArchivingRule/>
+			<useNativeSnapshotToPreserveFileAccessTime/>
+			</diskCleanupRules>
+			<backupConfiguration>
+				<backupDataAccessNodes>
+				  <clientGroupName></clientGroupName>
+				</backupDataAccessNodes>
+			</backupConfiguration>
+		</fsSubClientProp>
+		<content>
+			<path />
+			<excludePath />
+			<includePath />
+		</content>
+		<impersonateUser>
+			<userName />
+			<password />
+		</impersonateUser>
+	</subClientProperties>
+</App_UpdateSubClientPropertiesRequest>
